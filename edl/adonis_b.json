@@ -1,0 +1,62 @@
+{
+ "hablante": "Adonis Hernández",
+ "archivo": "video_20261110_110535.mp4",
+ "clips": [
+  {
+   "inicio": 0.541,
+   "fin": 4.687,
+   "seccion": 3,
+   "motivo": "Condiciones de la experiencia, 250 ml, registros cada 2 min, 16 datos",
+   "texto": "Esta experiencia se realizó el 19 de octubre, tipo a las 3 de la tarde,"
+  },
+  {
+   "inicio": 4.908,
+   "fin": 7.371,
+   "seccion": 3,
+   "motivo": "Condiciones de la experiencia, 250 ml, registros cada 2 min, 16 datos",
+   "texto": "en una habitación cerrada, sin corrientes de aire,"
+  },
+  {
+   "inicio": 7.952,
+   "fin": 11.818,
+   "seccion": 3,
+   "motivo": "Condiciones de la experiencia, 250 ml, registros cada 2 min, 16 datos",
+   "texto": "para que el ambiente afecte lo menos posible en la experiencia."
+  },
+  {
+   "inicio": 13.081,
+   "fin": 30.351,
+   "seccion": 3,
+   "motivo": "Condiciones de la experiencia, 250 ml, registros cada 2 min, 16 datos",
+   "texto": "Hervimos 250 ml de leche entera y la vertimos en una taza, obteniendo así nuestro tiempo cero en la experiencia. La experiencia en sí duró 30 minutos, cada 2 minutos se tomaban registros"
+  },
+  {
+   "inicio": 30.492,
+   "fin": 33.717,
+   "seccion": 3,
+   "motivo": "Condiciones de la experiencia, 250 ml, registros cada 2 min, 16 datos",
+   "texto": "de la temperatura de la leche, con ayuda de un termómetro,"
+  },
+  {
+   "inicio": 34.299,
+   "fin": 39.71,
+   "seccion": 3,
+   "motivo": "Condiciones de la experiencia, 250 ml, registros cada 2 min, 16 datos",
+   "texto": "y en la temperatura del ambiente nos apoyamos con Alexa,"
+  },
+  {
+   "inicio": 40.151,
+   "fin": 42.997,
+   "seccion": 3,
+   "motivo": "Condiciones de la experiencia, 250 ml, registros cada 2 min, 16 datos",
+   "texto": "y así obtuvimos un total de 16 registros."
+  }
+ ],
+ "descartado": [
+  [
+   "Por parte de los roles,",
+   "por parte de la modelación.",
+   "Roles del equipo: recortado por tiempo; los roles se muestran en los lower-thirds"
+  ]
+ ]
+}

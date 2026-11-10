@@ -1,0 +1,125 @@
+{
+ "hablante": "Martina Cares",
+ "archivo": "2026-11-09-125944640.mp4",
+ "clips": [
+  {
+   "inicio": 0.28,
+   "fin": 5.664,
+   "seccion": 6,
+   "motivo": "Modelo 1 vs Modelo 2 (regresión, 16 datos)",
+   "texto": "Para calcular cómo se enfría el sistema evaluamos dos modelos matemáticos. En el modelo 1"
+  },
+  {
+   "inicio": 6.044,
+   "fin": 8.806,
+   "seccion": 6,
+   "motivo": "Modelo 1 vs Modelo 2 (regresión, 16 datos)",
+   "texto": "se ajustó con dos puntos y utilizó una constante k,"
+  },
+  {
+   "inicio": 9.146,
+   "fin": 14.809,
+   "seccion": 6,
+   "motivo": "Modelo 1 vs Modelo 2 (regresión, 16 datos)",
+   "texto": "sin embargo, al notar que los residuos que se han de forma sistemática hasta alcanzar los 2 °C"
+  },
+  {
+   "inicio": 15.07,
+   "fin": 16.671,
+   "seccion": 6,
+   "motivo": "Modelo 1 vs Modelo 2 (regresión, 16 datos)",
+   "texto": "en un tiempo de 30,"
+  },
+  {
+   "inicio": 17.031,
+   "fin": 19.753,
+   "seccion": 6,
+   "motivo": "Modelo 1 vs Modelo 2 (regresión, 16 datos)",
+   "texto": "revisamos el modelo y así seguimos al segundo modelo,"
+  },
+  {
+   "inicio": 19.953,
+   "fin": 22.635,
+   "seccion": 6,
+   "motivo": "Modelo 1 vs Modelo 2 (regresión, 16 datos)",
+   "texto": "por regresión con los 16 datos,"
+  },
+  {
+   "inicio": 23.015,
+   "fin": 29.679,
+   "seccion": 6,
+   "motivo": "Modelo 1 vs Modelo 2 (regresión, 16 datos)",
+   "texto": "que logró un coeficiente de determinación altísimo y redujo el error medio en un 0,4%."
+  },
+  {
+   "inicio": 35.286,
+   "fin": 43.375,
+   "seccion": 7,
+   "motivo": "Cambio de recipiente: duplicar k, 17,3 → 8,6 min (se omite \"Ahora, pasando a la sección 7 de cambiar de recipiente\")",
+   "texto": "como la constante k depende del área y la conducción del material, servir la leche en un recipiente más ancho o metálico"
+  },
+  {
+   "inicio": 43.595,
+   "fin": 44.897,
+   "seccion": 7,
+   "motivo": "Cambio de recipiente: duplicar k, 17,3 → 8,6 min (se omite \"Ahora, pasando a la sección 7 de cambiar de recipiente\")",
+   "texto": "aumenta la constante"
+  },
+  {
+   "inicio": 45.257,
+   "fin": 46.418,
+   "seccion": 7,
+   "motivo": "Cambio de recipiente: duplicar k, 17,3 → 8,6 min (se omite \"Ahora, pasando a la sección 7 de cambiar de recipiente\")",
+   "texto": "sin gastar energía."
+  },
+  {
+   "inicio": 46.819,
+   "fin": 49.042,
+   "seccion": 7,
+   "motivo": "Cambio de recipiente: duplicar k, 17,3 → 8,6 min (se omite \"Ahora, pasando a la sección 7 de cambiar de recipiente\")",
+   "texto": "Duplicar k reduce a la mitad"
+  },
+  {
+   "inicio": 49.663,
+   "fin": 51.906,
+   "seccion": 7,
+   "motivo": "Cambio de recipiente: duplicar k, 17,3 → 8,6 min (se omite \"Ahora, pasando a la sección 7 de cambiar de recipiente\")",
+   "texto": "el tiempo para llegar a los 60 °C,"
+  },
+  {
+   "inicio": 52.267,
+   "fin": 54.33,
+   "seccion": 7,
+   "motivo": "Cambio de recipiente: duplicar k, 17,3 → 8,6 min (se omite \"Ahora, pasando a la sección 7 de cambiar de recipiente\")",
+   "texto": "mientras la tasa actual toma"
+  },
+  {
+   "inicio": 54.711,
+   "fin": 57.695,
+   "seccion": 7,
+   "motivo": "Cambio de recipiente: duplicar k, 17,3 → 8,6 min (se omite \"Ahora, pasando a la sección 7 de cambiar de recipiente\")",
+   "texto": "17,3 minutos al alcanzar esta temperatura"
+  },
+  {
+   "inicio": 58.056,
+   "fin": 60.802,
+   "seccion": 7,
+   "motivo": "Cambio de recipiente: duplicar k, 17,3 → 8,6 min (se omite \"Ahora, pasando a la sección 7 de cambiar de recipiente\")",
+   "texto": "trasladarlo a un recipiente. El recipiente metálico y ancho"
+  },
+  {
+   "inicio": 60.963,
+   "fin": 64.315,
+   "seccion": 7,
+   "motivo": "Cambio de recipiente: duplicar k, 17,3 → 8,6 min (se omite \"Ahora, pasando a la sección 7 de cambiar de recipiente\")",
+   "texto": "nos permite lograrlo tan solo en 8,6 minutos."
+  }
+ ],
+ "descartado": [
+  [
+   "Ahora, pasando a la sección 7",
+   "de cambiar de recipiente,",
+   "Frase de transición (el cambio de sección se ve en pantalla)"
+  ]
+ ]
+}

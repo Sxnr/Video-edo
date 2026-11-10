@@ -1,0 +1,7 @@
+input/
+work/
+out/
+node_modules/
+whisper.cpp/
+*.bin
+dl_*.log

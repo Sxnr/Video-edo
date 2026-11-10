@@ -1,0 +1,13 @@
+{
+  "driveFolder": "https://drive.google.com/drive/folders/1wmFm4FFYsjF-kXdPcPP44FCwT14QJx9S",
+  "poster": {"file": "poster.png", "pdf": "poster.pdf"},
+  "support": [{"id": "procedimiento_edo", "driveId": "1miDZHEaVER-ccCnmOu_5jeHeNl1cQBOr", "file": "procedimiento_edo.png", "sections": [5, 6]}],
+  "videos": [
+    {"id": "adonis_a", "speaker": "Adonis Hernández", "role": "Introducción y metodología", "driveId": "1IHB9--r_o6-mKrhd8sET6o0Jrops_22U", "file": "video_20261110_102620.mp4", "sections": [1]},
+    {"id": "adonis_b", "speaker": "Adonis Hernández", "role": "Introducción y metodología", "driveId": "14FVsttMD4Zc4_hGRpFz-01m7Rpkvojw6", "file": "video_20261110_110535.mp4", "sections": [3]},
+    {"id": "vicente", "speaker": "Vicente Acevedo", "role": "Modelación", "driveId": "1EPZA3uxonsOaOt2nIvnFh6f9hXNsElXc", "file": "VicenteVideoPoster_P.mkv", "sections": [2, 4, 5]},
+    {"id": "martina", "speaker": "Martina Cares", "role": "Estimación y mejora", "driveId": "10uxPsy9Ai07HD3mjpoToOMVLSfuqEXAI", "file": "2026-11-09-125944640.mp4", "sections": [6, 7]},
+    {"id": "francisco", "speaker": "Francisco Carrera", "role": "Interpretación", "driveId": "1dZmyCI-mOkodCkVDDwjdSdSPBt2rFQPQ", "file": "20261110_113712.mp4", "sections": [8]},
+    {"id": "yeny", "speaker": "Yeny Zapata", "role": "Conclusión", "driveId": "1U76pcbQjYol6v51-u1v72cy-CIOyDjdP", "file": "conclusion_poster.mp4", "sections": [9]}
+  ]
+}

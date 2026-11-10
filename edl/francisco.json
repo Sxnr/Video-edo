@@ -1,0 +1,35 @@
+{
+ "hablante": "Francisco Carrera",
+ "archivo": "20261110_113712.mp4",
+ "clips": [
+  {
+   "inicio": 0.743,
+   "fin": 3.451,
+   "seccion": 8,
+   "motivo": "Tres números: 47 min, 17 min, 22,1 °C",
+   "texto": "En la interpretación nos quedamos con solamente tres números"
+  },
+  {
+   "inicio": 3.592,
+   "fin": 27.019,
+   "seccion": 8,
+   "motivo": "Tres números: 47 min, 17 min, 22,1 °C",
+   "texto": "que resumen el modelo. El primero es 47 minutos, la constante de tiempo, que es 1 dividido por k, nos dice que cada 47 minutos la diferencia entre la leche y el ambiente se reduce a cerca de un tercio, o sea la leche se enfría más rápido al principio y cada vez mucho más lento. El segundo son los 17 minutos, que es lo que tarda la leche en bajar hasta 60 grados y una temperatura más cómoda para tomarla."
+  },
+  {
+   "inicio": 27.66,
+   "fin": 33.109,
+   "seccion": 8,
+   "motivo": "Tres números: 47 min, 17 min, 22,1 °C",
+   "texto": "Y el tercero es de 22,1 grados, la temperatura de equilibrio es la temperatura de la habitación,"
+  },
+  {
+   "inicio": 33.37,
+   "fin": 44.916,
+   "seccion": 8,
+   "motivo": "Tres números: 47 min, 17 min, 22,1 °C",
+   "texto": "la leche nunca va a bajar de ahí, solo se va acercando cada vez más lento. En resumen, con un solo valor de k podemos predecir cuánto hay que esperar y hasta dónde llegar el enfriamiento."
+  }
+ ],
+ "descartado": []
+}

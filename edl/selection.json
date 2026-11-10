@@ -1,0 +1,40 @@
+{
+ "note": "Propuesta A (orden del póster, recortada para <= 5:00). Cada rango va de la primera a la última palabra indicadas (texto de la transcripción).",
+ "blocks": [
+  {"section": 1, "id": "adonis_a", "ranges": [["Hola, somos Adonis", "ecuación diferencial de primer orden.", "Presentación, motivación y pregunta de investigación"]]},
+  {"section": 2, "id": "vicente", "ranges": [
+     ["como marco teórico,", "como marco teórico,", "Entrada al marco teórico"],
+     ["la ley de Newton, en donde", "y la temperatura ambiente.", "Ley de Newton (se omite \"yo trabajé en el modelamento… que se usó fue\")"],
+     ["la constante tiene un signo negativo", "es la temperatura ambiente.", "Signo negativo de k; T y Tₑ (se omite la explicación trabada de dT/dt)"]]},
+  {"section": 3, "id": "adonis_b", "ranges": [["Esta experiencia se realizó", "un total de 16 registros.", "Condiciones de la experiencia, 250 ml, registros cada 2 min, 16 datos"]]},
+  {"section": 4, "id": "vicente", "ranges": [["en datos y análisis exploratorio, lo que se ve aquí", "de este experimento.", "Gráfico: caída casi constante de 78,1 a 51,4 °C (segunda toma)"]]},
+  {"section": 5, "id": "vicente", "ranges": [
+     ["aquí se deja en una edad lineal,", "y QDT en este caso.", "EDO lineal de primer orden; identificar P(t) y Q(t)"],
+     ["Queda tal que, integrar esto,", "mi factor integrante.", "Factor integrante e^{kt}"],
+     ["Y en este caso me ayudó la IA.", "en una sola constante.", "Las constantes se agrupan en una sola C (Vicente menciona el apoyo de IA)"],
+     ["y para obtener la C,", "aplicar la condición inicial.", "Condición inicial para obtener C"],
+     ["se encuentra el valor de C y se reemplaza en TDDT.", "se encuentra el valor de C y se reemplaza en TDDT.", "C = T₀ − Tₑ y se reemplaza en T(t)"],
+     ["mi C vale 56.", "mi C vale 56.", "C = 56"],
+     ["Entonces mi E2 final", "intervalo de tiempo,", "EDO final: predice cualquier instante"]]},
+  {"section": 6, "id": "martina", "ranges": [["Para calcular cómo", "en un 0,4%.", "Modelo 1 vs Modelo 2 (regresión, 16 datos)"]]},
+  {"section": 7, "id": "martina", "ranges": [["como la constante k depende", "en 8,6 minutos.", "Cambio de recipiente: duplicar k, 17,3 → 8,6 min (se omite \"Ahora, pasando a la sección 7 de cambiar de recipiente\")"]]},
+  {"section": 8, "id": "francisco", "ranges": [["En la interpretación", "el enfriamiento.", "Tres números: 47 min, 17 min, 22,1 °C"]]},
+  {"section": 9, "id": "yeny", "ranges": [["Como conclusión,", "aislante de la nata.", "Conclusión: RMSE 0,38 °C, residuos, límites"]]}
+ ],
+ "discarded": {
+  "adonis_a": [["Yo estuve a cargo", "tiempo cero realizando la experiencia.", "Toma duplicada de la metodología: se usa la 2ª toma (video_20261110_110535), más completa"]],
+  "adonis_b": [["Por parte de los roles,", "por parte de la modelación.", "Roles del equipo: recortado por tiempo; los roles se muestran en los lower-thirds"]],
+  "vicente": [["Hola buenas, soy Vicente", "formulación y resolución.", "Autopresentación (la reemplaza el lower-third)"],
+              ["yo trabajé en el modelamento", "que se usó fue", "Muletilla de arranque"],
+              ["Bueno, en este caso, como será", "la constante, que es la constante,", "Explicación trabada de dT/dt (la ecuación se ve en pantalla)"],
+              ["Bueno, en datos y análisis exploratorio, lo que se recalque", "mejor sí.", "Falso comienzo de la sección 4 (\"Corto eso… me voy a explayar más\")"],
+              ["Y ahora, quiero pasar a la formulación", "lo que es. Bueno,", "Transición / \"me quiero explayar\""],
+              ["Al tener PDT se puede sacar", "de PDT de T.", "Repetición \"se puede sacar el P(t)\" ×3"],
+              ["El factor integrante se evalúa", "yo no supe entenderlo bien.", "Detalle algebraico del factor integrante (por tiempo)"],
+              ["La condición inicial es solo", "y así me quedaría tal cual. Y esto,", "Detalle T(0), e^0 = 1 (por tiempo)"],
+              ["Entonces, como dije ahí,", "Me queda que tengo que C,", "Repetición del reemplazo de C"],
+              ["Esto, claramente se puede resolver.", "me quedaría tal que así. Entonces", "Cálculo de k con T(10) = 66,2 (lo explica Martina en la sección 6; se muestra la hoja de procedimiento)"],
+              ["en cualquiera. Lo que ustedes", "terminaría mi parte.", "Invitación a probar con la tabla / cierre"]],
+  "martina": [["Ahora, pasando a la sección 7", "de cambiar de recipiente,", "Frase de transición (el cambio de sección se ve en pantalla)"]]
+ }
+}

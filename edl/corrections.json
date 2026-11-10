@@ -1,0 +1,5 @@
+{
+ "_all": [["Jenny", "Yeny"], ["2ºC", "2 °C"], ["60ºC", "60 °C"], ["enfria", "enfría"], ["17.3", "17,3"]],
+ "vicente": [["edad", "EDO"], ["E2", "EDO"], ["TDDT", "T(t)"], ["PDT", "P(t)"], ["QDT", "Q(t)"], ["Euler", "e"], ["desplayar", "explayar"], ["recalque", "recalca"], ["10K", "10k"], ["K", "k"]],
+ "martina": [["entrió", "enfría"], ["arrojaron", "ajustó con"], ["seguíamos", "seguimos"]]
+}

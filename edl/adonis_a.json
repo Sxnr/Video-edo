@@ -1,0 +1,48 @@
+{
+ "hablante": "Adonis Hernández",
+ "archivo": "video_20261110_102620.mp4",
+ "clips": [
+  {
+   "inicio": 0.742,
+   "fin": 9.537,
+   "seccion": 1,
+   "motivo": "Presentación, motivación y pregunta de investigación",
+   "texto": "Hola, somos Adonis, Yeny, Vicente, Francisco y Martina. Estudiamos cómo se enfría la leche recién hervida."
+  },
+  {
+   "inicio": 9.838,
+   "fin": 13.924,
+   "seccion": 1,
+   "motivo": "Presentación, motivación y pregunta de investigación",
+   "texto": "Elegimos este fenómeno porque se puede medir con instrumentos simples"
+  },
+  {
+   "inicio": 14.105,
+   "fin": 21.678,
+   "seccion": 1,
+   "motivo": "Presentación, motivación y pregunta de investigación",
+   "texto": "y porque la leche no se enfría a una velocidad constante, sino que pierde calor más rápido cuando está más caliente."
+  },
+  {
+   "inicio": 24.042,
+   "fin": 32.111,
+   "seccion": 1,
+   "motivo": "Presentación, motivación y pregunta de investigación",
+   "texto": "Nuestra pregunta fue cómo evoluciona la temperatura de la leche durante los primeros 30 minutos desde su punto máximo de calor"
+  },
+  {
+   "inicio": 32.812,
+   "fin": 38.318,
+   "seccion": 1,
+   "motivo": "Presentación, motivación y pregunta de investigación",
+   "texto": "y qué tan bien la describe una ecuación diferencial de primer orden."
+  }
+ ],
+ "descartado": [
+  [
+   "Yo estuve a cargo",
+   "tiempo cero realizando la experiencia.",
+   "Toma duplicada de la metodología: se usa la 2ª toma (video_20261110_110535), más completa"
+  ]
+ ]
+}
