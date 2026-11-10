@@ -5,3 +5,4 @@ node_modules/
 whisper.cpp/
 *.bin
 dl_*.log
+__pycache__/
