@@ -4,7 +4,7 @@
  "clips": [
   {
    "inicio": 0.267,
-   "fin": 5.667,
+   "fin": 5.733,
    "seccion": 6,
    "motivo": "Modelo 1 vs Modelo 2 (regresión, 16 datos)",
    "texto": "Para calcular cómo se enfría el sistema evaluamos dos modelos matemáticos. En el modelo 1"
@@ -18,14 +18,14 @@
   },
   {
    "inicio": 9.133,
-   "fin": 14.8,
+   "fin": 14.833,
    "seccion": 6,
    "motivo": "Modelo 1 vs Modelo 2 (regresión, 16 datos)",
    "texto": "sin embargo, al notar que los residuos que se han de forma sistemática hasta alcanzar los 2 °C"
   },
   {
-   "inicio": 15.067,
-   "fin": 16.667,
+   "inicio": 15.033,
+   "fin": 16.733,
    "seccion": 6,
    "motivo": "Modelo 1 vs Modelo 2 (regresión, 16 datos)",
    "texto": "en un tiempo de 30,"
@@ -53,20 +53,20 @@
   },
   {
    "inicio": 35.3,
-   "fin": 43.367,
+   "fin": 43.467,
    "seccion": 7,
    "motivo": "Cambio de recipiente: duplicar k, 17,3 → 8,6 min (se omite \"Ahora, pasando a la sección 7 de cambiar de recipiente\")",
    "texto": "como la constante k depende del área y la conducción del material, servir la leche en un recipiente más ancho o metálico"
   },
   {
    "inicio": 43.6,
-   "fin": 44.9,
+   "fin": 45.033,
    "seccion": 7,
    "motivo": "Cambio de recipiente: duplicar k, 17,3 → 8,6 min (se omite \"Ahora, pasando a la sección 7 de cambiar de recipiente\")",
    "texto": "aumenta la constante"
   },
   {
-   "inicio": 45.267,
+   "inicio": 45.233,
    "fin": 46.433,
    "seccion": 7,
    "motivo": "Cambio de recipiente: duplicar k, 17,3 → 8,6 min (se omite \"Ahora, pasando a la sección 7 de cambiar de recipiente\")",
@@ -80,15 +80,15 @@
    "texto": "Duplicar k reduce a la mitad"
   },
   {
-   "inicio": 49.667,
-   "fin": 51.9,
+   "inicio": 49.633,
+   "fin": 51.967,
    "seccion": 7,
    "motivo": "Cambio de recipiente: duplicar k, 17,3 → 8,6 min (se omite \"Ahora, pasando a la sección 7 de cambiar de recipiente\")",
    "texto": "el tiempo para llegar a los 60 °C,"
   },
   {
-   "inicio": 52.267,
-   "fin": 54.333,
+   "inicio": 52.233,
+   "fin": 54.4,
    "seccion": 7,
    "motivo": "Cambio de recipiente: duplicar k, 17,3 → 8,6 min (se omite \"Ahora, pasando a la sección 7 de cambiar de recipiente\")",
    "texto": "mientras la tasa actual toma"

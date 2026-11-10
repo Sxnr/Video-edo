@@ -11,24 +11,45 @@
   },
   {
    "inicio": 3.6,
+   "fin": 9.933,
+   "seccion": 8,
+   "motivo": "Tres números: 47 min, 17 min, 22,1 °C",
+   "texto": "que resumen el modelo. El primero es 47 minutos, la constante de tiempo, que es 1 dividido por k,"
+  },
+  {
+   "inicio": 10.1,
+   "fin": 19.533,
+   "seccion": 8,
+   "motivo": "Tres números: 47 min, 17 min, 22,1 °C",
+   "texto": "nos dice que cada 47 minutos la diferencia entre la leche y el ambiente se reduce a cerca de un tercio, o sea la leche se enfría más rápido al principio y cada vez mucho más lento."
+  },
+  {
+   "inicio": 19.733,
    "fin": 27.033,
    "seccion": 8,
    "motivo": "Tres números: 47 min, 17 min, 22,1 °C",
-   "texto": "que resumen el modelo. El primero es 47 minutos, la constante de tiempo, que es 1 dividido por k, nos dice que cada 47 minutos la diferencia entre la leche y el ambiente se reduce a cerca de un tercio, o sea la leche se enfría más rápido al principio y cada vez mucho más lento. El segundo son los 17 minutos, que es lo que tarda la leche en bajar hasta 60 grados y una temperatura más cómoda para tomarla."
+   "texto": "El segundo son los 17 minutos, que es lo que tarda la leche en bajar hasta 60 grados y una temperatura más cómoda para tomarla."
   },
   {
    "inicio": 27.667,
-   "fin": 33.1,
+   "fin": 33.2,
    "seccion": 8,
    "motivo": "Tres números: 47 min, 17 min, 22,1 °C",
    "texto": "Y el tercero es de 22,1 grados, la temperatura de equilibrio es la temperatura de la habitación,"
   },
   {
    "inicio": 33.367,
+   "fin": 35.267,
+   "seccion": 8,
+   "motivo": "Tres números: 47 min, 17 min, 22,1 °C",
+   "texto": "la leche nunca va a bajar de ahí,"
+  },
+  {
+   "inicio": 35.433,
    "fin": 44.9,
    "seccion": 8,
    "motivo": "Tres números: 47 min, 17 min, 22,1 °C",
-   "texto": "la leche nunca va a bajar de ahí, solo se va acercando cada vez más lento. En resumen, con un solo valor de k podemos predecir cuánto hay que esperar y hasta dónde llegar el enfriamiento."
+   "texto": "solo se va acercando cada vez más lento. En resumen, con un solo valor de k podemos predecir cuánto hay que esperar y hasta dónde llegar el enfriamiento."
   }
  ],
  "descartado": []

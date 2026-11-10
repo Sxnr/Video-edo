@@ -10,7 +10,7 @@
    "texto": "Esta experiencia se realizó el 19 de octubre, tipo a las 3 de la tarde,"
   },
   {
-   "inicio": 4.9,
+   "inicio": 4.867,
    "fin": 7.367,
    "seccion": 3,
    "motivo": "Condiciones de la experiencia, 250 ml, registros cada 2 min, 16 datos",
@@ -24,28 +24,56 @@
    "texto": "para que el ambiente afecte lo menos posible en la experiencia."
   },
   {
-   "inicio": 13.067,
+   "inicio": 12.633,
+   "fin": 15.9,
+   "seccion": 3,
+   "motivo": "Condiciones de la experiencia, 250 ml, registros cada 2 min, 16 datos",
+   "texto": "Hervimos 250 ml de"
+  },
+  {
+   "inicio": 16.233,
+   "fin": 21.067,
+   "seccion": 3,
+   "motivo": "Condiciones de la experiencia, 250 ml, registros cada 2 min, 16 datos",
+   "texto": "leche entera y la vertimos en una taza, obteniendo así nuestro tiempo cero"
+  },
+  {
+   "inicio": 21.467,
+   "fin": 23.567,
+   "seccion": 3,
+   "motivo": "Condiciones de la experiencia, 250 ml, registros cada 2 min, 16 datos",
+   "texto": "en la experiencia."
+  },
+  {
+   "inicio": 24.7,
    "fin": 30.367,
    "seccion": 3,
    "motivo": "Condiciones de la experiencia, 250 ml, registros cada 2 min, 16 datos",
-   "texto": "Hervimos 250 ml de leche entera y la vertimos en una taza, obteniendo así nuestro tiempo cero en la experiencia. La experiencia en sí duró 30 minutos, cada 2 minutos se tomaban registros"
+   "texto": "La experiencia en sí duró 30 minutos, cada 2 minutos se tomaban registros"
   },
   {
    "inicio": 30.5,
-   "fin": 33.733,
+   "fin": 33.767,
    "seccion": 3,
    "motivo": "Condiciones de la experiencia, 250 ml, registros cada 2 min, 16 datos",
    "texto": "de la temperatura de la leche, con ayuda de un termómetro,"
   },
   {
-   "inicio": 34.3,
-   "fin": 39.7,
+   "inicio": 34.233,
+   "fin": 35.533,
    "seccion": 3,
    "motivo": "Condiciones de la experiencia, 250 ml, registros cada 2 min, 16 datos",
-   "texto": "y en la temperatura del ambiente nos apoyamos con Alexa,"
+   "texto": "y"
   },
   {
-   "inicio": 40.167,
+   "inicio": 36.167,
+   "fin": 39.767,
+   "seccion": 3,
+   "motivo": "Condiciones de la experiencia, 250 ml, registros cada 2 min, 16 datos",
+   "texto": "en la temperatura del ambiente nos apoyamos con Alexa,"
+  },
+  {
+   "inicio": 40.133,
    "fin": 43.0,
    "seccion": 3,
    "motivo": "Condiciones de la experiencia, 250 ml, registros cada 2 min, 16 datos",

@@ -25,14 +25,21 @@
   },
   {
    "inicio": 28.633,
+   "fin": 31.867,
+   "seccion": 2,
+   "motivo": "Ley de Newton (se omite \"yo trabajé en el modelamento… que se usó fue\")",
+   "texto": "tanto entre su temperatura"
+  },
+  {
+   "inicio": 32.233,
    "fin": 34.767,
    "seccion": 2,
    "motivo": "Ley de Newton (se omite \"yo trabajé en el modelamento… que se usó fue\")",
-   "texto": "tanto entre su temperatura del líquido y la temperatura ambiente."
+   "texto": "del líquido y la temperatura ambiente."
   },
   {
    "inicio": 57.867,
-   "fin": 59.667,
+   "fin": 59.7,
    "seccion": 2,
    "motivo": "Signo negativo de k; T y Tₑ (se omite la explicación trabada de dT/dt)",
    "texto": "la constante tiene un signo negativo,"
@@ -46,13 +53,13 @@
   },
   {
    "inicio": 63.5,
-   "fin": 66.633,
+   "fin": 66.667,
    "seccion": 2,
    "motivo": "Signo negativo de k; T y Tₑ (se omite la explicación trabada de dT/dt)",
    "texto": "La T mayúscula es la temperatura del líquido,"
   },
   {
-   "inicio": 66.933,
+   "inicio": 66.9,
    "fin": 71.967,
    "seccion": 2,
    "motivo": "Signo negativo de k; T y Tₑ (se omite la explicación trabada de dT/dt)",
@@ -67,10 +74,17 @@
   },
   {
    "inicio": 127.967,
+   "fin": 129.367,
+   "seccion": 4,
+   "motivo": "Gráfico: caída casi constante de 78,1 a 51,4 °C (segunda toma)",
+   "texto": "durante los 30 minutos,"
+  },
+  {
+   "inicio": 129.633,
    "fin": 135.067,
    "seccion": 4,
    "motivo": "Gráfico: caída casi constante de 78,1 a 51,4 °C (segunda toma)",
-   "texto": "durante los 30 minutos, de estar en 78,1 a llegar a los 51,4,"
+   "texto": "de estar en 78,1 a llegar a los 51,4,"
   },
   {
    "inicio": 135.267,
@@ -81,10 +95,17 @@
   },
   {
    "inicio": 166.6,
+   "fin": 169.3,
+   "seccion": 5,
+   "motivo": "EDO lineal de primer orden; identificar P(t) y Q(t)",
+   "texto": "aquí se deja"
+  },
+  {
+   "inicio": 170.267,
    "fin": 172.033,
    "seccion": 5,
    "motivo": "EDO lineal de primer orden; identificar P(t) y Q(t)",
-   "texto": "aquí se deja en una EDO lineal,"
+   "texto": "en una EDO lineal,"
   },
   {
    "inicio": 172.3,
@@ -95,7 +116,7 @@
   },
   {
    "inicio": 177.433,
-   "fin": 180.367,
+   "fin": 180.433,
    "seccion": 5,
    "motivo": "EDO lineal de primer orden; identificar P(t) y Q(t)",
    "texto": "donde la EDO lineal se tiene que identificar lo que es el"
@@ -109,7 +130,7 @@
   },
   {
    "inicio": 193.067,
-   "fin": 194.0,
+   "fin": 194.1,
    "seccion": 5,
    "motivo": "Factor integrante e^{kt}",
    "texto": "Queda tal que,"
@@ -129,35 +150,49 @@
    "texto": "elevado a k por T."
   },
   {
-   "inicio": 199.633,
+   "inicio": 199.567,
+   "fin": 200.733,
+   "seccion": 5,
+   "motivo": "Factor integrante e^{kt}",
+   "texto": "Y este es mi"
+  },
+  {
+   "inicio": 201.0,
    "fin": 202.167,
    "seccion": 5,
    "motivo": "Factor integrante e^{kt}",
-   "texto": "Y este es mi factor integrante."
+   "texto": "factor integrante."
   },
   {
    "inicio": 274.733,
+   "fin": 277.2,
+   "seccion": 5,
+   "motivo": "Las constantes se agrupan en una sola C (Vicente menciona el apoyo de IA)",
+   "texto": "Y en este caso me ayudó la IA."
+  },
+  {
+   "inicio": 277.433,
    "fin": 285.0,
    "seccion": 5,
    "motivo": "Las constantes se agrupan en una sola C (Vicente menciona el apoyo de IA)",
-   "texto": "Y en este caso me ayudó la IA. La inteligencia artificial me ayudó porque estos dos, al ser constantes, se tienen que agrupar en una sola constante."
+   "texto": "La inteligencia artificial me ayudó porque estos dos, al ser constantes, se tienen que agrupar en una sola constante."
   },
   {
    "inicio": 288.367,
-   "fin": 289.567,
+   "fin": 289.733,
    "seccion": 5,
    "motivo": "Condición inicial para obtener C",
    "texto": "y para obtener la C,"
   },
   {
    "inicio": 290.6,
-   "fin": 292.2,
+   "fin": 292.267,
    "seccion": 5,
    "motivo": "Condición inicial para obtener C",
    "texto": "que tenemos que encontrarla,"
   },
   {
-   "inicio": 292.5,
+   "inicio": 292.467,
    "fin": 294.767,
    "seccion": 5,
    "motivo": "Condición inicial para obtener C",
@@ -179,7 +214,7 @@
   },
   {
    "inicio": 466.667,
-   "fin": 469.033,
+   "fin": 469.133,
    "seccion": 5,
    "motivo": "EDO final: predice cualquier instante",
    "texto": "Entonces mi EDO final quedaría"
@@ -193,13 +228,13 @@
   },
   {
    "inicio": 470.633,
-   "fin": 471.333,
+   "fin": 471.367,
    "seccion": 5,
    "motivo": "EDO final: predice cualquier instante",
    "texto": "En donde"
   },
   {
-   "inicio": 471.7,
+   "inicio": 471.667,
    "fin": 475.4,
    "seccion": 5,
    "motivo": "EDO final: predice cualquier instante",

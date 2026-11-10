@@ -71,6 +71,9 @@ for c in clips:
     a[:fade] *= ramp; a[-fade:] *= ramp[::-1]
     voice[c['at'] * SPF: c['at'] * SPF + len(a)] += a
 
+import wave as _w
+with _w.open('work/voice.wav', 'wb') as w_:
+    w_.setnchannels(1); w_.setsampwidth(2); w_.setframerate(SR); w_.writeframes((np.clip(voice, -1, 1) * 32767).astype('<i2').tobytes())
 # envolvente de voz por frame (0..1) para indicador de onda y ducking
 rms = np.sqrt((voice.reshape(total, SPF) ** 2).mean(1))
 env = np.clip(20 * np.log10(rms + 1e-6) + 50, 0, 40) / 40

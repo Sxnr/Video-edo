@@ -24,19 +24,20 @@ def fix(id, txt):
     return txt
 
 def speech_pieces(id, a, b, W, S):
-    """Sub-rangos de [a,b] sin pausas internas. Una pausa se corta solo si (1) es un hueco
-    >= MIN_SIL entre dos palabras alineadas y (2) al menos 70 % del hueco es silencio según el
-    detector de energía. Así nunca se corta dentro de una palabra."""
+    """Sub-rangos de [a,b] sin pausas internas. Se recorta cada tramo silencioso (detector de energía,
+    >= MIN_SIL) que quede entre dos palabras alineadas, dejando PAD a cada lado. La voz (incluida la
+    que Whisper no transcribió) nunca se corta, y nunca se corta dentro de una palabra."""
     ws = [w for w in W if w['e'] > a and w['s'] < b]
     cuts = []
     for w0, w1 in zip(ws, ws[1:]):
         g0, g1 = w0['e'], w1['s']
         if g1 - g0 < MIN_SIL: continue
-        sil = sum(max(0, min(e, g1) - max(s_, g0)) for s_, e in S)
-        if sil < 0.7 * (g1 - g0): continue
-        cuts.append((g0 + PAD, g1 - PAD))
+        for s_, e in S:
+            cs, ce = max(s_, g0), min(e, g1)
+            if ce - cs >= MIN_SIL:
+                cuts.append((cs + PAD, ce - PAD))
     pieces, cur = [], a
-    for cs, ce in cuts:
+    for cs, ce in sorted(cuts):
         if cs > cur: pieces.append([cur, cs])
         cur = max(cur, ce)
     if cur < b: pieces.append([cur, b])

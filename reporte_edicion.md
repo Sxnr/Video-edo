@@ -30,59 +30,59 @@
 | # | Sección | Hablante | Fuente | Habla tras cortes |
 |---|---|---|---|---|
 | 0 | Intro (título, integrantes, profesores) | — | generada, sobre el saludo de Adonis | +1.5 s |
-| 1 | Introducción y objetivo | Adonis Hernández | `video_20261110_102620.mp4` | 32.8 s |
-| 2 | Marco teórico | Vicente Acevedo | `VicenteVideoPoster_P.mkv` | 26.2 s |
-| 3 | Metodología | Adonis Hernández | `video_20261110_110535.mp4` | 39.3 s |
-| 4 | Datos y análisis exploratorio | Vicente Acevedo | `VicenteVideoPoster_P.mkv` | 17.0 s |
-| 5 | Formulación y resolución | Vicente Acevedo | `VicenteVideoPoster_P.mkv` | 50.0 s |
-| 6 | Estimación de k y validación | Martina Cares | `2026-11-09-125944640.mp4` | 27.5 s |
-| 7 | Propuesta de mejora | Martina Cares | `2026-11-09-125944640.mp4` | 26.1 s |
-| 8 | Interpretación | Francisco Carrera | `20261110_113712.mp4` | 43.1 s |
-| 9 | Conclusión | Yeny Zapata | `conclusion_poster.mp4` | 20.7 s |
+| 1 | Introducción y objetivo | Adonis Hernández | `video_20261110_102620.mp4` | 33.5 s |
+| 2 | Marco teórico | Vicente Acevedo | `VicenteVideoPoster_P.mkv` | 25.9 s |
+| 3 | Metodología | Adonis Hernández | `video_20261110_110535.mp4` | 37.4 s |
+| 4 | Datos y análisis exploratorio | Vicente Acevedo | `VicenteVideoPoster_P.mkv` | 16.7 s |
+| 5 | Formulación y resolución | Vicente Acevedo | `VicenteVideoPoster_P.mkv` | 49.2 s |
+| 6 | Estimación de k y validación | Martina Cares | `2026-11-09-125944640.mp4` | 27.7 s |
+| 7 | Propuesta de mejora | Martina Cares | `2026-11-09-125944640.mp4` | 26.6 s |
+| 8 | Interpretación | Francisco Carrera | `20261110_113712.mp4` | 42.7 s |
+| 9 | Conclusión | Yeny Zapata | `conclusion_poster.mp4` | 20.9 s |
 | 10 | Anexo: uso de IA + fade a negro | — | generada | 8.0 s |
 
-- Habla total: **282.6 s**; pausas de transición entre secciones: 8 × 0.4 s.
-- **Duración total estimada: 4:55.8** (límite 5:00). Velocidad de voz: 1,00× (sin acelerar).
+- Habla total: **280.6 s**; pausas de transición entre secciones: 8 × 0.4 s.
+- **Duración total estimada: 4:53.8** (límite 5:00). Velocidad de voz: 1,00× (sin acelerar).
 
 ## Transcripción limpia por sección
 
 _Texto tal como queda en el video (Whisper large-v3-turbo + alineación forzada + glosario). `/` = corte de pausa._
 
-### 1. Introducción y objetivo — Adonis Hernández (0:00.0–0:32.8 del tramo de voz)
+### 1. Introducción y objetivo — Adonis Hernández (0:00.0–0:33.5 del tramo de voz)
 
-Hola, somos Adonis, / Yeny, Vicente, Francisco y Martina. / Estudiamos cómo se enfría la leche recién hervida. / Elegimos este fenómeno porque se puede medir con instrumentos simples / y porque la leche no se enfría a una velocidad constante, sino que pierde calor más rápido / cuando está más caliente. / Nuestra pregunta fue cómo evoluciona la temperatura de la leche durante los primeros 30 minutos desde su punto máximo de calor / y qué tan bien la describe una ecuación diferencial de primer orden.
+Hola, somos Adonis, / Yeny, Vicente, Francisco y Martina. / Estudiamos cómo se enfría la leche recién hervida. / Elegimos este fenómeno porque se puede medir con instrumentos simples / y porque la leche no se enfría a una velocidad constante, sino que pierde calor más rápido / cuando está más caliente. /  / Nuestra pregunta fue / cómo evoluciona la temperatura de la leche durante los primeros 30 minutos desde su punto máximo de calor / y qué tan bien la describe una ecuación diferencial de primer orden.
 
-### 2. Marco teórico — Vicente Acevedo (0:32.8–0:59.0 del tramo de voz)
+### 2. Marco teórico — Vicente Acevedo (0:33.5–0:59.4 del tramo de voz)
 
-como marco teórico, / la ley de Newton, en donde aquí se evalúa en con qué rapidez un / cuerpo pierde calor, / tanto entre su temperatura del líquido y la temperatura ambiente. / la constante tiene un signo negativo, / que indica que la temperatura está bajando. / La T mayúscula es la temperatura del líquido, / y menos el T sub E, es la temperatura ambiente.
+como marco teórico, / la ley de Newton, en donde aquí se evalúa en con qué rapidez un / cuerpo pierde calor, / tanto entre su temperatura / del líquido y la temperatura ambiente. / la constante tiene un signo negativo, / que indica que la temperatura está bajando. / La T mayúscula es la temperatura del líquido, / y menos el T sub E, es la temperatura ambiente.
 
-### 3. Metodología — Adonis Hernández (0:59.0–1:38.3 del tramo de voz)
+### 3. Metodología — Adonis Hernández (0:59.4–1:36.9 del tramo de voz)
 
-Esta experiencia se realizó el 19 de octubre, tipo a las 3 de la tarde, / en una habitación cerrada, sin corrientes de aire, / para que el ambiente afecte lo menos posible en la experiencia. / Hervimos 250 ml de leche entera y la vertimos en una taza, obteniendo así nuestro tiempo cero en la experiencia. La experiencia en sí duró 30 minutos, cada 2 minutos se tomaban registros / de la temperatura de la leche, con ayuda de un termómetro, / y en la temperatura del ambiente nos apoyamos con Alexa, / y así obtuvimos un total de 16 registros.
+Esta experiencia se realizó el 19 de octubre, tipo a las 3 de la tarde, / en una habitación cerrada, sin corrientes de aire, / para que el ambiente afecte lo menos posible en la experiencia. / Hervimos 250 ml de / leche entera y la vertimos en una taza, obteniendo así nuestro tiempo cero / en la experiencia. / La experiencia en sí duró 30 minutos, cada 2 minutos se tomaban registros / de la temperatura de la leche, con ayuda de un termómetro, / y / en la temperatura del ambiente nos apoyamos con Alexa, / y así obtuvimos un total de 16 registros.
 
-### 4. Datos y análisis exploratorio — Vicente Acevedo (1:38.3–1:55.2 del tramo de voz)
+### 4. Datos y análisis exploratorio — Vicente Acevedo (1:36.9–1:53.6 del tramo de voz)
 
-en datos y análisis exploratorio, lo que se ve aquí, en este gráfico, es cómo decrece de manera constante casi, / durante los 30 minutos, de estar en 78,1 a llegar a los 51,4, / en el término de este experimento.
+en datos y análisis exploratorio, lo que se ve aquí, en este gráfico, es cómo decrece de manera constante casi, / durante los 30 minutos, / de estar en 78,1 a llegar a los 51,4, / en el término de este experimento.
 
-### 5. Formulación y resolución — Vicente Acevedo (1:55.2–2:45.2 del tramo de voz)
+### 5. Formulación y resolución — Vicente Acevedo (1:53.6–2:42.7 del tramo de voz)
 
-aquí se deja en una EDO lineal, / porque es una de las mejores opciones. Para evaluar este caso, / donde la EDO lineal se tiene que identificar lo que es el / P(t) y Q(t) en este caso. / Queda tal que, / integrar esto, queda tal que e / elevado a k por T. / Y este es mi factor integrante. / Y en este caso me ayudó la IA. La inteligencia artificial me ayudó porque estos dos, al ser constantes, se tienen que agrupar en una sola constante. / y para obtener la C, / que tenemos que encontrarla, / es necesario aplicar la condición inicial. / se encuentra el valor de C y se reemplaza en T(t). / mi C vale 56. / Entonces mi EDO final quedaría / de esta manera. / En donde / esta puede predecir cualquier intervalo de tiempo,
+aquí se deja / en una EDO lineal, / porque es una de las mejores opciones. Para evaluar este caso, / donde la EDO lineal se tiene que identificar lo que es el / P(t) y Q(t) en este caso. / Queda tal que, / integrar esto, queda tal que e / elevado a k por T. / Y este es mi / factor integrante. / Y en este caso me ayudó la IA. / La inteligencia artificial me ayudó porque estos dos, al ser constantes, se tienen que agrupar en una sola constante. / y para obtener la C, / que tenemos que encontrarla, / es necesario aplicar la condición inicial. / se encuentra el valor de C y se reemplaza en T(t). / mi C vale 56. / Entonces mi EDO final quedaría / de esta manera. / En donde / esta puede predecir cualquier intervalo de tiempo,
 
-### 6. Estimación de k y validación — Martina Cares (2:45.2–3:12.7 del tramo de voz)
+### 6. Estimación de k y validación — Martina Cares (2:42.7–3:10.4 del tramo de voz)
 
 Para calcular cómo se enfría el sistema evaluamos dos modelos matemáticos. En el modelo 1 / se ajustó con dos puntos y utilizó una constante k, / sin embargo, al notar que los residuos que se han de forma sistemática hasta alcanzar los 2 °C / en un tiempo de 30, / revisamos el modelo y así seguimos al segundo modelo, / por regresión con los 16 datos, / que logró un coeficiente de determinación altísimo y redujo el error medio en un 0,4%.
 
-### 7. Propuesta de mejora — Martina Cares (3:12.7–3:38.8 del tramo de voz)
+### 7. Propuesta de mejora — Martina Cares (3:10.4–3:37.0 del tramo de voz)
 
 como la constante k depende del área y la conducción del material, servir la leche en un recipiente más ancho o metálico / aumenta la constante / sin gastar energía. / Duplicar k reduce a la mitad / el tiempo para llegar a los 60 °C, / mientras la tasa actual toma / 17,3 minutos al alcanzar esta temperatura / trasladarlo a un recipiente. El recipiente metálico y ancho / nos permite lograrlo tan solo en 8,6 minutos.
 
-### 8. Interpretación — Francisco Carrera (3:38.8–4:21.9 del tramo de voz)
+### 8. Interpretación — Francisco Carrera (3:37.0–4:19.7 del tramo de voz)
 
-En la interpretación nos quedamos con solamente tres números / que resumen el modelo. El primero es 47 minutos, la constante de tiempo, que es 1 dividido por k, nos dice que cada 47 minutos la diferencia entre la leche y el ambiente se reduce a cerca de un tercio, o sea la leche se enfría más rápido al principio y cada vez mucho más lento. El segundo son los 17 minutos, que es lo que tarda la leche en bajar hasta 60 grados y una temperatura más cómoda para tomarla. / Y el tercero es de 22,1 grados, la temperatura de equilibrio es la temperatura de la habitación, / la leche nunca va a bajar de ahí, solo se va acercando cada vez más lento. En resumen, con un solo valor de k podemos predecir cuánto hay que esperar y hasta dónde llegar el enfriamiento.
+En la interpretación nos quedamos con solamente tres números / que resumen el modelo. El primero es 47 minutos, la constante de tiempo, que es 1 dividido por k, / nos dice que cada 47 minutos la diferencia entre la leche y el ambiente se reduce a cerca de un tercio, o sea la leche se enfría más rápido al principio y cada vez mucho más lento. / El segundo son los 17 minutos, que es lo que tarda la leche en bajar hasta 60 grados y una temperatura más cómoda para tomarla. / Y el tercero es de 22,1 grados, la temperatura de equilibrio es la temperatura de la habitación, / la leche nunca va a bajar de ahí, / solo se va acercando cada vez más lento. En resumen, con un solo valor de k podemos predecir cuánto hay que esperar y hasta dónde llegar el enfriamiento.
 
-### 9. Conclusión — Yeny Zapata (4:21.9–4:42.6 del tramo de voz)
+### 9. Conclusión — Yeny Zapata (4:19.7–4:40.6 del tramo de voz)
 
-Como conclusión, / tenemos que la ley de Newton describe bien el enfriamiento de la leche, / con un error medio de 0,38 grados Celsius. / Al analizar los residuos, esto nos permitió revisar / y mejorar el modelo. / Sus límites no captan la pérdida rápida inicial ni el efecto aislante de la nata.
+Como conclusión, / tenemos que la ley de Newton describe bien el enfriamiento de la leche, / con un error medio de 0,38 grados Celsius. / Al analizar los residuos, esto nos permitió revisar y mejorar el modelo. / Sus límites no captan la pérdida rápida inicial ni el efecto aislante de la / nata.
 
 ## Cortes de contenido (lo que no entra)
 
@@ -103,7 +103,7 @@ Como conclusión, / tenemos que la ley de Newton describe bien el enfriamiento d
 | Vicente | 7:57.7 → 8:23.0 | 25.4 s | en cualquiera. Lo que ustedes puedan poner, si ustedes prueban, podría … a un aproximado literal con esto. Y así terminaría mi parte. | Invitación a probar con la tabla / cierre |
 | Martina | 0:30.4 → 0:34.6 | 4.2 s | Ahora, pasando a la sección 7 de cambiar de recipiente, | Frase de transición (el cambio de sección se ve en pantalla) |
 
-Además se recortaron automáticamente las pausas ≥ 0,35 s dentro de las frases (70 clips en total; margen de 0,12 s a cada lado, crossfade de audio de 30 ms en cada unión). El detalle está en `edl/<hablante>.json`.
+Además se recortaron automáticamente las pausas ≥ 0,35 s dentro de las frases (84 clips en total; margen de 0,12 s a cada lado, crossfade de audio de 30 ms en cada unión). El detalle está en `edl/<hablante>.json`.
 
 ## Cifras: lo dicho vs. el póster
 

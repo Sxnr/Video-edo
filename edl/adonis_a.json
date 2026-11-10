@@ -11,13 +11,13 @@
   },
   {
    "inicio": 2.633,
-   "fin": 5.167,
+   "fin": 5.2,
    "seccion": 1,
    "motivo": "Presentación, motivación y pregunta de investigación",
    "texto": "Yeny, Vicente, Francisco y Martina."
   },
   {
-   "inicio": 5.767,
+   "inicio": 5.733,
    "fin": 9.533,
    "seccion": 1,
    "motivo": "Presentación, motivación y pregunta de investigación",
@@ -38,21 +38,35 @@
    "texto": "y porque la leche no se enfría a una velocidad constante, sino que pierde calor más rápido"
   },
   {
-   "inicio": 19.633,
+   "inicio": 19.6,
    "fin": 21.667,
    "seccion": 1,
    "motivo": "Presentación, motivación y pregunta de investigación",
    "texto": "cuando está más caliente."
   },
   {
+   "inicio": 22.733,
+   "fin": 23.533,
+   "seccion": 1,
+   "motivo": "Presentación, motivación y pregunta de investigación",
+   "texto": ""
+  },
+  {
    "inicio": 24.033,
+   "fin": 25.933,
+   "seccion": 1,
+   "motivo": "Presentación, motivación y pregunta de investigación",
+   "texto": "Nuestra pregunta fue"
+  },
+  {
+   "inicio": 26.2,
    "fin": 32.1,
    "seccion": 1,
    "motivo": "Presentación, motivación y pregunta de investigación",
-   "texto": "Nuestra pregunta fue cómo evoluciona la temperatura de la leche durante los primeros 30 minutos desde su punto máximo de calor"
+   "texto": "cómo evoluciona la temperatura de la leche durante los primeros 30 minutos desde su punto máximo de calor"
   },
   {
-   "inicio": 32.8,
+   "inicio": 32.733,
    "fin": 38.333,
    "seccion": 1,
    "motivo": "Presentación, motivación y pregunta de investigación",

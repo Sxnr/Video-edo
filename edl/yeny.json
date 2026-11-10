@@ -4,7 +4,7 @@
  "clips": [
   {
    "inicio": 0.8,
-   "fin": 2.067,
+   "fin": 2.2,
    "seccion": 9,
    "motivo": "Conclusión: RMSE 0,38 °C, residuos, límites",
    "texto": "Como conclusión,"
@@ -24,25 +24,25 @@
    "texto": "con un error medio de 0,38 grados Celsius."
   },
   {
-   "inicio": 10.433,
-   "fin": 14.1,
-   "seccion": 9,
-   "motivo": "Conclusión: RMSE 0,38 °C, residuos, límites",
-   "texto": "Al analizar los residuos, esto nos permitió revisar"
-  },
-  {
-   "inicio": 14.233,
+   "inicio": 10.4,
    "fin": 15.533,
    "seccion": 9,
    "motivo": "Conclusión: RMSE 0,38 °C, residuos, límites",
-   "texto": "y mejorar el modelo."
+   "texto": "Al analizar los residuos, esto nos permitió revisar y mejorar el modelo."
   },
   {
    "inicio": 15.9,
+   "fin": 22.1,
+   "seccion": 9,
+   "motivo": "Conclusión: RMSE 0,38 °C, residuos, límites",
+   "texto": "Sus límites no captan la pérdida rápida inicial ni el efecto aislante de la"
+  },
+  {
+   "inicio": 22.2,
    "fin": 22.767,
    "seccion": 9,
    "motivo": "Conclusión: RMSE 0,38 °C, residuos, límites",
-   "texto": "Sus límites no captan la pérdida rápida inicial ni el efecto aislante de la nata."
+   "texto": "nata."
   }
  ],
  "descartado": []
