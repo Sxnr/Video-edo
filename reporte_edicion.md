@@ -5,7 +5,7 @@
 ## Estado
 
 - Descargados y verificados con `ffprobe` los 6 videos y `procedimiento_edo.png` (ninguno era página de permiso).
-- **No hay póster** (ni PDF ni imagen) en la carpeta de Drive ni en el chat → **falta `input/poster.png` o `poster.pdf` para renderizar.**
+- **Póster:** `Poster_EDO_Enfriamiento_Leche.pptx` (A2, subido por Vicente) → `poster.pdf` (LibreOffice; Calibri/Cambria se reemplazan por Carlito/Caladea, de métricas idénticas) → `poster.png` 4961×7016 (300 dpi). Las coordenadas de cada recuadro se leen directo del PPTX (`scripts/poster.py` → `work/poster_boxes.json`), no de la tabla aproximada.
 - **No hay `input/music.mp3`** → por ahora el video va sin música.
 - Videos normalizados a 1920×1080, 30 fps CFR, H.264 + AAC 48 kHz mono, −16 LUFS (`loudnorm`), `highpass=80` + `afftdn` suave.
 - Transcripción: whisper.cpp `large-v3-turbo` en español. Como sus marcas por palabra venían corridas hasta ~1,5 s, se re-alinearon con alineación forzada (torchaudio MMS_FA, ~20 ms de precisión) para que subtítulos y énfasis calcen ±100 ms.
@@ -105,21 +105,29 @@ Como conclusión, / tenemos que la ley de Newton describe bien el enfriamiento d
 
 Además se recortaron automáticamente las pausas ≥ 0,35 s dentro de las frases (67 clips en total; margen de 0,12 s a cada lado, crossfade de audio de 30 ms en cada unión). El detalle está en `edl/<hablante>.json`.
 
-## Cifras y frases a revisar (no se editaron)
+## Cifras: lo dicho vs. el póster
 
-| Sección | Quién | Lo que se transcribió | Comentario |
-|---|---|---|---|
-| 6 | Martina | "redujo el error medio **en un 0,4 %**" | El póster y Yeny dan RMSE = 0,38 °C (≈ 0,4 °C, no %). Probablemente dijo "a 0,4" o es error de Whisper; en pantalla se mostrará **RMSE = 0,38 °C** del póster. ¿Lo dejamos así o prefieren recortar "en un 0,4 %"? |
-| 6 | Martina | "los residuos que **se han** de forma sistemática hasta alcanzar los **2 °C** en un tiempo de 30" | Audio poco claro ("crecen"/"se van"?). Confirmen que el residuo máximo del Modelo 1 en el póster es ≈ 2 °C a los 30 min. En el subtítulo dejé el texto tal cual se oye. |
-| 6 | Martina | "En el modelo 1 **se arrojaron** dos puntos" | Whisper; en el subtítulo lo corregí a "se ajustó con dos puntos". Confirmen. |
-| 7 | Martina | "la tasa actual toma **17,3 minutos**" | Francisco y el póster dicen **17 min** (redondeo). Se mantiene la voz; en pantalla manda el póster. |
-| 5 | Vicente | k = **0,0238** (hoja y pizarra) | El póster dice 0,0239. El tramo donde lo calcula queda fuera del corte; en pantalla se muestra 0,0239. |
-| 2 | Vicente | "la ley de Newton, en donde aquí se evalúa **en** con qué rapidez…" | Titubeo leve en la voz; no se puede cortar sin cortar a mitad de frase. |
-| 8 | Francisco | "hasta dónde **llegar** el enfriamiento" | Se oye así (falta "llega"). Sin cambio. |
+Todas las cifras dichas calzan con el póster. Lo que había marcado como dudoso quedó resuelto:
+
+| Sección | Quién | Dicho | Póster | Estado |
+|---|---|---|---|---|
+| 6 | Martina | "redujo el error medio en un 0,4 %" | Tabla: Modelo 2, error medio **0,40 %** (RMSE 0,38 °C) | ✅ Correcto |
+| 6 | Martina | residuos del Modelo 1 "hasta 2 °C en un tiempo de 30" | "crecían de forma sistemática (hasta 2 °C en t = 30)" | ✅ Correcto (en el subtítulo: "que crecen" → se deja como se oye: "que se han") |
+| 6 | Martina | "en el modelo 1 se arrojaron dos puntos" | "Modelo 1: dos puntos" | Subtítulo corregido a "se ajustó con dos puntos" |
+| 7 | Martina | "17,3 minutos" / "8,6 minutos" | Tabla: taza actual 17,3 min; B: metálico ancho 8,6 min | ✅ Correcto |
+| 8 | Francisco | 47 min, 17 min, 22,1 °C | Tarjetas: 47 min, 17 min, 22,1 °C | ✅ Correcto |
+| 3 | Adonis | "19 de octubre, tipo a las 3 de la tarde" | "19/10/2026, 15:04 h" | ✅ Coherente |
+| 4 | Vicente | "de 78,1 a 51,4" | "De 78,1 °C a 51,4 °C en 30 min" | ✅ Correcto |
+| 5 | Vicente | "mi C vale 56" | "C = T₀ − Tₑ = 56 °C" | ✅ Correcto |
+| 5 | Vicente | k = 0,0238 (hoja; tramo fuera del corte) | k = 0,0239 | En pantalla, 0,0239 |
+| 2 | Vicente | "se evalúa **en** con qué rapidez" | — | Titubeo leve, no se puede cortar sin partir la frase |
+| 8 | Francisco | "hasta dónde **llegar** el enfriamiento" | — | Se oye así; sin cambio |
+
+Nota: los **roles** del equipo también están en el póster (Metodología, punto 4), así que cortar la frase de Adonis no hace que se pierdan.
 
 ## Decisiones que necesito que confirmen
 
-1. **Póster:** súbanlo a la carpeta como PDF (ideal) o adjunten la imagen. Sin él no puedo armar los recuadros 3D.
+1. ~~Póster~~ ✅ recibido.
 2. **Recorte de Vicente:** su grabación dura 8:26 y el video completo debe durar ≤ 5:00, así que de la sección 5 quedan ~50 s con los pasos clave (EDO lineal → P(t), Q(t) → factor integrante e^{kt} → constantes agrupadas en C → condición inicial → C = 56 → EDO final). Se omite el cálculo de k con T(10) = 66,2: lo explica Martina en la sección 6 y se ve en la hoja de procedimiento. ¿OK?
 3. **Roles del equipo** (Adonis, 0:43–1:01 de su 2ª toma) quedan fuera por tiempo, pero se muestran en los lower-thirds con lo que dijo Adonis: Adonis · Experiencia, Yeny · Datos, Francisco y Martina · Observación y análisis, Vicente · Modelación. ¿OK?
 4. **Intro:** la tarjeta de título aparece mientras Adonis dice "Hola, somos Adonis, Yeny, Vicente, Francisco y Martina…", y los nombres entran a medida que los nombra. Así ahorramos ~5 s.
