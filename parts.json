@@ -22,22 +22,40 @@
     {
       "id": "adonis_a",
       "speaker": "Adonis Hernández",
-      "role": "Introducción y metodología",
+      "role": "Experiencia",
       "driveId": "1IHB9--r_o6-mKrhd8sET6o0Jrops_22U",
       "file": "video_20261110_102620.mp4",
       "sections": [
         1
-      ]
+      ],
+      "pip": {
+        "kind": "portrait",
+        "crop": [
+          656,
+          160,
+          608,
+          760
+        ]
+      }
     },
     {
       "id": "adonis_b",
       "speaker": "Adonis Hernández",
-      "role": "Introducción y metodología",
+      "role": "Experiencia",
       "driveId": "14FVsttMD4Zc4_hGRpFz-01m7Rpkvojw6",
       "file": "video_20261110_110535.mp4",
       "sections": [
         3
-      ]
+      ],
+      "pip": {
+        "kind": "portrait",
+        "crop": [
+          656,
+          160,
+          608,
+          760
+        ]
+      }
     },
     {
       "id": "vicente",
@@ -49,38 +67,85 @@
         2,
         4,
         5
+      ],
+      "pip": {
+        "kind": "landscape",
+        "crop": [
+          352,
+          60,
+          1216,
+          912
+        ]
+      },
+      "noPipSections": [
+        5
       ]
     },
     {
       "id": "martina",
       "speaker": "Martina Cares",
-      "role": "Estimación y mejora",
+      "role": "Observación y análisis",
       "driveId": "10uxPsy9Ai07HD3mjpoToOMVLSfuqEXAI",
       "file": "2026-11-09-125944640.mp4",
       "sections": [
         6,
         7
-      ]
+      ],
+      "pip": {
+        "kind": "portrait",
+        "crop": [
+          656,
+          120,
+          608,
+          760
+        ]
+      }
     },
     {
       "id": "francisco",
       "speaker": "Francisco Carrera",
-      "role": "Interpretación",
+      "role": "Observación y análisis",
       "driveId": "1dZmyCI-mOkodCkVDDwjdSdSPBt2rFQPQ",
       "file": "20261110_113712.mp4",
       "sections": [
         8
-      ]
+      ],
+      "pip": {
+        "kind": "landscape",
+        "crop": [
+          260,
+          0,
+          1440,
+          1080
+        ]
+      }
     },
     {
       "id": "yeny",
       "speaker": "Yeny Zapata",
-      "role": "Conclusión",
+      "role": "Datos",
       "driveId": "1U76pcbQjYol6v51-u1v72cy-CIOyDjdP",
       "file": "conclusion_poster.mp4",
       "sections": [
         9
-      ]
+      ],
+      "pip": {
+        "kind": "portrait",
+        "crop": [
+          656,
+          20,
+          608,
+          760
+        ]
+      }
     }
-  ]
+  ],
+  "roles_source": "Roles según Adonis (video_20261110_110535, 0:43–1:01) y el póster (Metodología, punto 4)",
+  "timing": {
+    "fps": 30,
+    "intro_lead": 1.5,
+    "gap": 0.4,
+    "annex": 7.0,
+    "fade": 1.0
+  }
 }

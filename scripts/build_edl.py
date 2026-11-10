@@ -12,6 +12,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 from words import words, silences, find_phrase
 
 PAD, MIN_SIL = 0.12, 0.35
+FPS = 30
 GAP_BETWEEN_SECTIONS = 0.0  # la transición visual se monta sobre el audio, no agrega silencio
 CORR = json.load(open('edl/corrections.json')) if os.path.exists('edl/corrections.json') else {}
 
@@ -61,6 +62,9 @@ def main():
             b = W[j]['e'] + PAD
             if j + 1 < len(W): b = min(b, (W[j]['e'] + W[j+1]['s']) / 2)
             for pa, pb in speech_pieces(id, a, b, W, S):
+                # cuantiza a frames (30 fps) para que audio y video del PiP queden en sincronía exacta
+                pa, pb = round(pa * FPS) / FPS, round(pb * FPS) / FPS
+                if pb - pa < 2 / FPS: continue
                 ws = [dict(w=fix(id, w['w']), s=round(max(w['s'], pa) - pa + t, 3), e=round(min(w['e'], pb) - pa + t, 3))
                       for w in W if pa <= (w['s'] + w['e']) / 2 <= pb]
                 clip = dict(section=blk['section'], id=id, src_start=round(pa, 3), src_end=round(pb, 3),

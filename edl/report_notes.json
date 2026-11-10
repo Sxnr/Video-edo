@@ -48,14 +48,14 @@
   "",
   "Nota: los **roles** del equipo también están en el póster (Metodología, punto 4), así que cortar la frase de Adonis no hace que se pierdan.",
   "",
-  "## Decisiones que necesito que confirmen",
+  "## Decisiones (confirmadas por el grupo)",
   "",
-  "1. ~~Póster~~ ✅ recibido.",
-  "2. **Recorte de Vicente:** su grabación dura 8:26 y el video completo debe durar ≤ 5:00, así que de la sección 5 quedan ~50 s con los pasos clave (EDO lineal → P(t), Q(t) → factor integrante e^{kt} → constantes agrupadas en C → condición inicial → C = 56 → EDO final). Se omite el cálculo de k con T(10) = 66,2: lo explica Martina en la sección 6 y se ve en la hoja de procedimiento. ¿OK?",
-  "3. **Roles del equipo** (Adonis, 0:43–1:01 de su 2ª toma) quedan fuera por tiempo, pero se muestran en los lower-thirds con lo que dijo Adonis: Adonis · Experiencia, Yeny · Datos, Francisco y Martina · Observación y análisis, Vicente · Modelación. ¿OK?",
-  "4. **Intro:** la tarjeta de título aparece mientras Adonis dice \"Hola, somos Adonis, Yeny, Vicente, Francisco y Martina…\", y los nombres entran a medida que los nombra. Así ahorramos ~5 s.",
-  "5. **Margen:** quedamos en ~4:57. Si quieren más holgura, se pueden sacar \"o sea la leche se enfría más rápido al principio y cada vez mucho más lento\" (Francisco, ~4 s) y/o \"porque es una de las mejores opciones\" (Vicente, ~2 s).",
-  "6. **Música:** no hay `music.mp3`. ¿La agregan ustedes o sigo sin música?",
-  "7. **Hoja de procedimiento:** la captura es tinta de colores sobre fondo oscuro (pizarra digital), no papel blanco. Le aplico realce de contraste/nitidez y escalado ×2 Lanczos, manteniendo el fondo oscuro y montada sobre una tarjeta clara con el estilo del póster."
+  "1. Póster: recibido (`Poster_EDO_Enfriamiento_Leche.pptx`).",
+  "2. Sección 5 de Vicente recortada a ~50 s con los pasos clave; el cálculo de k con T(10) lo cubre Martina en la sección 6 y la hoja de procedimiento. ✅",
+  "3. Intro sobre el saludo de Adonis; los nombres se encienden a medida que los dice. ✅",
+  "4. Duración: se deja en ~4:56 sin recortes adicionales. ✅",
+  "5. Música: no venía archivo, así que se usa una pista original generada por síntesis (`scripts/music.py`: pad ambiental en Fa mayor, ~72 bpm), sin derechos de terceros. A −24 dBFS sin voz y ~−30 dBFS bajo la voz (ducking), fade-in de 2 s y fade-out de 3 s. Para cambiarla basta con dejar `input/music.mp3` y correr `npm run prepare && npm run render`.",
+  "6. Hoja de procedimiento: tinta clara sobre fondo oscuro → realce de contraste y nitidez, escalado ×2 con Lanczos y zoom ≤ 1,3×. Aparece como hoja inclinada a la derecha en la sección 5 y abajo a la izquierda al comenzar la 6. En la hoja se lee k = 0,0238 (manuscrito); en el recuadro del póster se resalta 0,0239.",
+  ""
  ]
 }

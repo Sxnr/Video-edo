@@ -1,0 +1,10 @@
+import planJson from '../public/plan.json';
+export type Rect = [number, number, number, number];
+export type Word = {w: string; f0: number; f1: number};
+export type Section = {n: number; id: string; start: number; end: number; speaker: string; role: string;
+  lowerThird: boolean; pip: 'portrait' | 'landscape' | null; box: Rect};
+export type Cue = {s: number; kind: string; f0: number; f1: number; rect?: Rect; item?: string; text?: string; tex?: string; step?: string};
+export type Plan = {fps: number; durationInFrames: number; posterSize: [number, number]; header: Rect; refs: Rect; logo: Rect;
+  introEnd: number; names: Record<string, number>; annexStart: number; sections: Section[];
+  captions: {section: number; f0: number; f1: number; words: Word[]}[]; cues: Cue[]; env: number[]; music: string};
+export const plan = planJson as unknown as Plan;

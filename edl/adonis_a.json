@@ -3,36 +3,57 @@
  "archivo": "video_20261110_102620.mp4",
  "clips": [
   {
-   "inicio": 0.742,
-   "fin": 9.537,
+   "inicio": 0.733,
+   "fin": 2.433,
    "seccion": 1,
    "motivo": "Presentación, motivación y pregunta de investigación",
-   "texto": "Hola, somos Adonis, Yeny, Vicente, Francisco y Martina. Estudiamos cómo se enfría la leche recién hervida."
+   "texto": "Hola, somos Adonis,"
   },
   {
-   "inicio": 9.838,
-   "fin": 13.924,
+   "inicio": 2.633,
+   "fin": 5.167,
+   "seccion": 1,
+   "motivo": "Presentación, motivación y pregunta de investigación",
+   "texto": "Yeny, Vicente, Francisco y Martina."
+  },
+  {
+   "inicio": 5.767,
+   "fin": 9.533,
+   "seccion": 1,
+   "motivo": "Presentación, motivación y pregunta de investigación",
+   "texto": "Estudiamos cómo se enfría la leche recién hervida."
+  },
+  {
+   "inicio": 9.833,
+   "fin": 13.933,
    "seccion": 1,
    "motivo": "Presentación, motivación y pregunta de investigación",
    "texto": "Elegimos este fenómeno porque se puede medir con instrumentos simples"
   },
   {
-   "inicio": 14.105,
-   "fin": 21.678,
+   "inicio": 14.1,
+   "fin": 19.2,
    "seccion": 1,
    "motivo": "Presentación, motivación y pregunta de investigación",
-   "texto": "y porque la leche no se enfría a una velocidad constante, sino que pierde calor más rápido cuando está más caliente."
+   "texto": "y porque la leche no se enfría a una velocidad constante, sino que pierde calor más rápido"
   },
   {
-   "inicio": 24.042,
-   "fin": 32.111,
+   "inicio": 19.633,
+   "fin": 21.667,
+   "seccion": 1,
+   "motivo": "Presentación, motivación y pregunta de investigación",
+   "texto": "cuando está más caliente."
+  },
+  {
+   "inicio": 24.033,
+   "fin": 32.1,
    "seccion": 1,
    "motivo": "Presentación, motivación y pregunta de investigación",
    "texto": "Nuestra pregunta fue cómo evoluciona la temperatura de la leche durante los primeros 30 minutos desde su punto máximo de calor"
   },
   {
-   "inicio": 32.812,
-   "fin": 38.318,
+   "inicio": 32.8,
+   "fin": 38.333,
    "seccion": 1,
    "motivo": "Presentación, motivación y pregunta de investigación",
    "texto": "y qué tan bien la describe una ecuación diferencial de primer orden."

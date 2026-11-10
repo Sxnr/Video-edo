@@ -6,3 +6,4 @@ whisper.cpp/
 *.bin
 dl_*.log
 __pycache__/
+public/

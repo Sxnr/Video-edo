@@ -3,43 +3,43 @@
  "archivo": "conclusion_poster.mp4",
  "clips": [
   {
-   "inicio": 0.802,
-   "fin": 2.083,
+   "inicio": 0.8,
+   "fin": 2.067,
    "seccion": 9,
    "motivo": "Conclusión: RMSE 0,38 °C, residuos, límites",
    "texto": "Como conclusión,"
   },
   {
-   "inicio": 2.344,
-   "fin": 6.251,
+   "inicio": 2.333,
+   "fin": 6.267,
    "seccion": 9,
    "motivo": "Conclusión: RMSE 0,38 °C, residuos, límites",
    "texto": "tenemos que la ley de Newton describe bien el enfriamiento de la leche,"
   },
   {
-   "inicio": 6.432,
-   "fin": 10.058,
+   "inicio": 6.433,
+   "fin": 10.067,
    "seccion": 9,
    "motivo": "Conclusión: RMSE 0,38 °C, residuos, límites",
    "texto": "con un error medio de 0,38 grados Celsius."
   },
   {
-   "inicio": 10.42,
-   "fin": 14.111,
+   "inicio": 10.433,
+   "fin": 14.1,
    "seccion": 9,
    "motivo": "Conclusión: RMSE 0,38 °C, residuos, límites",
    "texto": "Al analizar los residuos, esto nos permitió revisar"
   },
   {
-   "inicio": 14.232,
-   "fin": 15.535,
+   "inicio": 14.233,
+   "fin": 15.533,
    "seccion": 9,
    "motivo": "Conclusión: RMSE 0,38 °C, residuos, límites",
    "texto": "y mejorar el modelo."
   },
   {
-   "inicio": 15.916,
-   "fin": 22.768,
+   "inicio": 15.9,
+   "fin": 22.767,
    "seccion": 9,
    "motivo": "Conclusión: RMSE 0,38 °C, residuos, límites",
    "texto": "Sus límites no captan la pérdida rápida inicial ni el efecto aislante de la nata."

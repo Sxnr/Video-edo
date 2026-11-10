@@ -4,7 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "download": "python3 scripts/download.py",
+    "normalize": "bash scripts/normalize.sh",
+    "transcribe": "python3 -c \"import json,subprocess;subprocess.run(['bash','scripts/transcribe.sh']+[v['id'] for v in json.load(open('parts.json'))['videos']],check=True)\" && python3 -I scripts/align.py && python3 scripts/vad.py",
+    "edl": "python3 scripts/build_edl.py && python3 scripts/report.py",
+    "prepare": "python3 -I scripts/poster.py && python3 -I scripts/assets.py && python3 scripts/plan.py",
+    "stills": "node scripts/stills.mjs",
+    "render": "remotion render src/index.ts Poster out/video_poster_final.mp4 --codec=h264 --crf=18 --audio-codec=aac --audio-bitrate=192k --concurrency=4 --gl=swiftshader",
+    "deliver": "bash scripts/deliver.sh",
+    "build-all": "npm run download && npm run normalize && npm run transcribe && npm run edl && npm run prepare && npm run render && npm run deliver"
   },
   "repository": {
     "type": "git",
@@ -18,11 +26,19 @@
   },
   "homepage": "https://github.com/Sxnr/Video-edo#readme",
   "dependencies": {
+    "@remotion/bundler": "^4.0.250",
     "@remotion/cli": "^4.0.250",
+    "@remotion/fonts": "^4.0.250",
     "@remotion/install-whisper-cpp": "^4.0.250",
     "@remotion/renderer": "^4.0.250",
+    "@types/react": "^18.3.12",
+    "katex": "^0.16.11",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "remotion": "^4.0.250"
+    "remotion": "^4.0.250",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@types/katex": "^0.16.7"
   }
 }

@@ -22,7 +22,7 @@ for s in sorted(secs):
     cs = secs[s]; id = cs[0]['id']; d = sum(c['out_end'] - c['out_start'] for c in cs)
     L.append(f"| {s} | {NAMES[s]} | {parts[id]['speaker']} | `{parts[id]['file']}` | {d:.1f} s |")
 L.append(f"| 10 | Anexo: uso de IA + fade a negro | — | generada | {ANNEX + FADE:.1f} s |")
-speech = tl['speech_duration']; total = speech + GAP * (len(secs) - 1) + INTRO_EXTRA + ANNEX + FADE
+speech = tl['speech_duration']; total = speech + GAP * (len(secs) - 1) + INTRO_EXTRA + 0.5 + ANNEX + FADE
 L += ['', f"- Habla total: **{speech:.1f} s**; pausas de transición entre secciones: {len(secs)-1} × {GAP} s.",
       f"- **Duración total estimada: {mmss(total)}** (límite 5:00). Velocidad de voz: 1,00× (sin acelerar).", '']
 L += ['## Transcripción limpia por sección', '',

@@ -1,0 +1,574 @@
+{
+ "_doc": "Énfasis visuales por sección. 'at' = frase dicha (se busca en la transcripción de la sección); rect en px del póster 300 dpi [x,y,w,h]. kind: focus (zoom + marco), mark (marco), pop (marco + pulso), katex (ecuación redibujada sobre su lugar), callout (texto del póster ampliado), sheet (paso en la hoja de procedimiento), card (tarjeta de cifra).",
+ "items": {
+  "1.fenomeno": [
+   205,
+   1170,
+   4560,
+   145
+  ],
+  "1.pregunta": [
+   205,
+   1318,
+   4560,
+   80
+  ],
+  "2.newton": [
+   205,
+   1900,
+   2060,
+   165
+  ],
+  "2.eq": [
+   975,
+   2075,
+   620,
+   125
+  ],
+  "2.T": [
+   205,
+   2225,
+   2060,
+   175
+  ],
+  "2.k": [
+   205,
+   2420,
+   2060,
+   150
+  ],
+  "3.lugar": [
+   205,
+   2890,
+   2160,
+   80
+  ],
+  "3.montaje": [
+   205,
+   2982,
+   2160,
+   80
+  ],
+  "3.medicion": [
+   205,
+   3085,
+   2160,
+   148
+  ],
+  "4.graph": [
+   535,
+   3759,
+   1500,
+   867
+  ],
+  "4.b1": [
+   205,
+   4640,
+   2160,
+   160
+  ],
+  "4.b2": [
+   205,
+   4805,
+   2160,
+   160
+  ],
+  "5.lineal": [
+   2595,
+   1920,
+   1935,
+   195
+  ],
+  "5.mu": [
+   2595,
+   2160,
+   1700,
+   205
+  ],
+  "5.eq2": [
+   3095,
+   2250,
+   1190,
+   120
+  ],
+  "5.C": [
+   2595,
+   2400,
+   1095,
+   92
+  ],
+  "5.final": [
+   3320,
+   2500,
+   715,
+   128
+  ],
+  "6.m1": [
+   2660,
+   3060,
+   1640,
+   95
+  ],
+  "6.m2": [
+   2660,
+   3160,
+   2010,
+   170
+  ],
+  "6.graph": [
+   2850,
+   3354,
+   1650,
+   953
+  ],
+  "6.row2": [
+   2606,
+   4550,
+   2124,
+   108
+  ],
+  "6.resid": [
+   2600,
+   4690,
+   2150,
+   210
+  ],
+  "7.text": [
+   1420,
+   5368,
+   1760,
+   225
+  ],
+  "7.eq": [
+   1905,
+   5588,
+   785,
+   122
+  ],
+  "7.dup": [
+   1420,
+   5720,
+   1760,
+   160
+  ],
+  "7.row0": [
+   3216,
+   5502,
+   1560,
+   104
+  ],
+  "7.rowB": [
+   3216,
+   5702,
+   1560,
+   124
+  ],
+  "7.graph": [
+   216,
+   5349,
+   1125,
+   650
+  ],
+  "8.c47": [
+   216,
+   6324,
+   673,
+   324
+  ],
+  "8.c17": [
+   949,
+   6324,
+   673,
+   324
+  ],
+  "8.c22": [
+   1682,
+   6324,
+   673,
+   324
+  ],
+  "9.text": [
+   2595,
+   6290,
+   2160,
+   250
+  ]
+ },
+ "sheet": {
+  "lineal": [
+   240,
+   200,
+   330,
+   65
+  ],
+  "PQ": [
+   135,
+   295,
+   90,
+   60
+  ],
+  "mu": [
+   265,
+   300,
+   250,
+   45
+  ],
+  "agrupar": [
+   445,
+   565,
+   270,
+   75
+  ],
+  "cond": [
+   440,
+   650,
+   280,
+   45
+  ],
+  "C": [
+   470,
+   730,
+   420,
+   50
+  ],
+  "C56": [
+   755,
+   130,
+   330,
+   120
+  ],
+  "min10": [
+   775,
+   258,
+   300,
+   110
+  ]
+ },
+ "cues": [
+  {
+   "s": 1,
+   "at": "Estudiamos cómo se enfría",
+   "kind": "mark",
+   "item": "1.fenomeno",
+   "hold": 13
+  },
+  {
+   "s": 1,
+   "at": "Elegimos este fenómeno",
+   "kind": "callout",
+   "text": "**Fenómeno:** enfriamiento de 250 mL de leche entera recién hervida, expuesta al aire de una habitación cerrada. La leche no se enfría a velocidad constante: pierde calor más rápido cuando está más caliente.",
+   "hold": 10
+  },
+  {
+   "s": 1,
+   "at": "Nuestra pregunta fue",
+   "kind": "mark",
+   "item": "1.pregunta",
+   "hold": 11
+  },
+  {
+   "s": 1,
+   "at": "Nuestra pregunta fue",
+   "kind": "callout",
+   "text": "**Pregunta:** ¿cómo evoluciona la temperatura de la leche durante los primeros 30 minutos desde su punto máximo de calor, y qué tan bien la describe una EDO de primer orden?",
+   "hold": 11
+  },
+  {
+   "s": 2,
+   "at": "la ley de Newton",
+   "kind": "focus",
+   "item": "2.newton",
+   "hold": 6
+  },
+  {
+   "s": 2,
+   "at": "la ley de Newton",
+   "kind": "katex",
+   "item": "2.eq",
+   "tex": "dT/dt = -k\\,(T - T_e)",
+   "hold": 11
+  },
+  {
+   "s": 2,
+   "at": "signo negativo",
+   "kind": "focus",
+   "item": "2.eq",
+   "hold": 3.5
+  },
+  {
+   "s": 2,
+   "at": "La T mayúscula",
+   "kind": "focus",
+   "item": "2.T",
+   "hold": 7
+  },
+  {
+   "s": 3,
+   "at": "19 de octubre",
+   "kind": "focus",
+   "item": "3.lugar",
+   "hold": 8
+  },
+  {
+   "s": 3,
+   "at": "Hervimos 250",
+   "kind": "focus",
+   "item": "3.montaje",
+   "hold": 6
+  },
+  {
+   "s": 3,
+   "at": "duró 30 minutos",
+   "kind": "focus",
+   "item": "3.medicion",
+   "hold": 14
+  },
+  {
+   "s": 3,
+   "at": "16 registros",
+   "kind": "pop",
+   "item": "3.medicion",
+   "hold": 2
+  },
+  {
+   "s": 4,
+   "at": "en este gráfico",
+   "kind": "focus",
+   "item": "4.graph",
+   "hold": 5
+  },
+  {
+   "s": 4,
+   "at": "de estar en 78,1",
+   "kind": "focus",
+   "item": "4.b1",
+   "hold": 6
+  },
+  {
+   "s": 4,
+   "at": "78,1",
+   "kind": "pop",
+   "item": "4.b1",
+   "hold": 2
+  },
+  {
+   "s": 5,
+   "at": "EDO lineal,",
+   "kind": "focus",
+   "item": "5.lineal",
+   "hold": 9
+  },
+  {
+   "s": 5,
+   "at": "EDO lineal,",
+   "kind": "sheet",
+   "step": "lineal",
+   "hold": 6
+  },
+  {
+   "s": 5,
+   "at": "P(t) y Q(t)",
+   "kind": "sheet",
+   "step": "PQ",
+   "hold": 4
+  },
+  {
+   "s": 5,
+   "at": "integrar esto",
+   "kind": "focus",
+   "item": "5.mu",
+   "hold": 6
+  },
+  {
+   "s": 5,
+   "at": "integrar esto",
+   "kind": "sheet",
+   "step": "mu",
+   "hold": 6
+  },
+  {
+   "s": 5,
+   "at": "estos dos, al ser constantes",
+   "kind": "sheet",
+   "step": "agrupar",
+   "hold": 5
+  },
+  {
+   "s": 5,
+   "at": "estos dos, al ser constantes",
+   "kind": "focus",
+   "item": "5.eq2",
+   "hold": 5
+  },
+  {
+   "s": 5,
+   "at": "condición inicial",
+   "kind": "sheet",
+   "step": "cond",
+   "hold": 3
+  },
+  {
+   "s": 5,
+   "at": "se encuentra el valor de C",
+   "kind": "sheet",
+   "step": "C",
+   "hold": 3.5
+  },
+  {
+   "s": 5,
+   "at": "se encuentra el valor de C",
+   "kind": "focus",
+   "item": "5.C",
+   "hold": 6
+  },
+  {
+   "s": 5,
+   "at": "C vale 56",
+   "kind": "sheet",
+   "step": "C56",
+   "hold": 4
+  },
+  {
+   "s": 5,
+   "at": "C vale 56",
+   "kind": "pop",
+   "item": "5.C",
+   "hold": 2
+  },
+  {
+   "s": 5,
+   "at": "EDO final",
+   "kind": "katex",
+   "item": "5.final",
+   "tex": "T(t) = T_e + (T_0 - T_e)\\,e^{-kt}",
+   "hold": 7
+  },
+  {
+   "s": 6,
+   "at": "En el modelo 1",
+   "kind": "focus",
+   "item": "6.m1",
+   "hold": 4.5
+  },
+  {
+   "s": 6,
+   "at": "En el modelo 1",
+   "kind": "sheet",
+   "step": "min10",
+   "hold": 5
+  },
+  {
+   "s": 6,
+   "at": "los residuos",
+   "kind": "focus",
+   "item": "6.graph",
+   "hold": 5.5
+  },
+  {
+   "s": 6,
+   "at": "por regresión con los 16 datos",
+   "kind": "focus",
+   "item": "6.m2",
+   "hold": 4
+  },
+  {
+   "s": 6,
+   "at": "coeficiente de determinación",
+   "kind": "pop",
+   "item": "6.m2",
+   "hold": 2
+  },
+  {
+   "s": 6,
+   "at": "redujo el error medio",
+   "kind": "focus",
+   "item": "6.row2",
+   "hold": 4
+  },
+  {
+   "s": 7,
+   "at": "como la constante k depende",
+   "kind": "focus",
+   "item": "7.text",
+   "hold": 8
+  },
+  {
+   "s": 7,
+   "at": "Duplicar k",
+   "kind": "katex",
+   "item": "7.eq",
+   "tex": "t^{*} = \\dfrac{1}{k}\\,\\ln\\!\\left[\\dfrac{C}{60 - T_e}\\right]",
+   "hold": 6
+  },
+  {
+   "s": 7,
+   "at": "Duplicar k",
+   "kind": "focus",
+   "item": "7.dup",
+   "hold": 4
+  },
+  {
+   "s": 7,
+   "at": "17,3 minutos",
+   "kind": "focus",
+   "item": "7.row0",
+   "hold": 4
+  },
+  {
+   "s": 7,
+   "at": "8,6 minutos",
+   "kind": "focus",
+   "item": "7.rowB",
+   "hold": 3
+  },
+  {
+   "s": 7,
+   "at": "8,6",
+   "kind": "pop",
+   "item": "7.rowB",
+   "hold": 2
+  },
+  {
+   "s": 8,
+   "at": "47 minutos, la constante",
+   "kind": "card",
+   "item": "8.c47",
+   "hold": 99
+  },
+  {
+   "s": 8,
+   "at": "17 minutos",
+   "kind": "card",
+   "item": "8.c17",
+   "hold": 99
+  },
+  {
+   "s": 8,
+   "at": "22,1 grados",
+   "kind": "card",
+   "item": "8.c22",
+   "hold": 99
+  },
+  {
+   "s": 9,
+   "at": "Como conclusión",
+   "kind": "mark",
+   "item": "9.text",
+   "hold": 20
+  },
+  {
+   "s": 9,
+   "at": "0,38",
+   "kind": "callout",
+   "text": "**Error medio (RMSE) = 0,38 °C**",
+   "hold": 4
+  },
+  {
+   "s": 5,
+   "at": "EDO final",
+   "kind": "zoom",
+   "item": "5.final",
+   "hold": 7
+  }
+ ]
+}

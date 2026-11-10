@@ -3,204 +3,204 @@
  "archivo": "VicenteVideoPoster_P.mkv",
  "clips": [
   {
-   "inicio": 11.681,
-   "fin": 12.922,
+   "inicio": 11.667,
+   "fin": 12.933,
    "seccion": 2,
    "motivo": "Entrada al marco teórico",
    "texto": "como marco teórico,"
   },
   {
-   "inicio": 21.576,
-   "fin": 26.244,
+   "inicio": 21.567,
+   "fin": 26.233,
    "seccion": 2,
    "motivo": "Ley de Newton (se omite \"yo trabajé en el modelamento… que se usó fue\")",
    "texto": "la ley de Newton, en donde aquí se evalúa en con qué rapidez un"
   },
   {
-   "inicio": 26.625,
-   "fin": 28.147,
+   "inicio": 26.633,
+   "fin": 28.133,
    "seccion": 2,
    "motivo": "Ley de Newton (se omite \"yo trabajé en el modelamento… que se usó fue\")",
    "texto": "cuerpo pierde calor,"
   },
   {
-   "inicio": 28.648,
-   "fin": 34.758,
+   "inicio": 28.633,
+   "fin": 34.767,
    "seccion": 2,
    "motivo": "Ley de Newton (se omite \"yo trabajé en el modelamento… que se usó fue\")",
    "texto": "tanto entre su temperatura del líquido y la temperatura ambiente."
   },
   {
-   "inicio": 57.865,
-   "fin": 59.669,
+   "inicio": 57.867,
+   "fin": 59.667,
    "seccion": 2,
    "motivo": "Signo negativo de k; T y Tₑ (se omite la explicación trabada de dT/dt)",
    "texto": "la constante tiene un signo negativo,"
   },
   {
-   "inicio": 60.13,
-   "fin": 62.756,
+   "inicio": 60.133,
+   "fin": 62.767,
    "seccion": 2,
    "motivo": "Signo negativo de k; T y Tₑ (se omite la explicación trabada de dT/dt)",
    "texto": "que indica que la temperatura está bajando."
   },
   {
-   "inicio": 63.498,
-   "fin": 66.625,
+   "inicio": 63.5,
+   "fin": 66.633,
    "seccion": 2,
    "motivo": "Signo negativo de k; T y Tₑ (se omite la explicación trabada de dT/dt)",
    "texto": "La T mayúscula es la temperatura del líquido,"
   },
   {
-   "inicio": 66.946,
-   "fin": 71.957,
+   "inicio": 66.933,
+   "fin": 71.967,
    "seccion": 2,
    "motivo": "Signo negativo de k; T y Tₑ (se omite la explicación trabada de dT/dt)",
    "texto": "y menos el T sub E, es la temperatura ambiente."
   },
   {
-   "inicio": 120.327,
-   "fin": 127.578,
+   "inicio": 120.333,
+   "fin": 127.567,
    "seccion": 4,
    "motivo": "Gráfico: caída casi constante de 78,1 a 51,4 °C (segunda toma)",
    "texto": "en datos y análisis exploratorio, lo que se ve aquí, en este gráfico, es cómo decrece de manera constante casi,"
   },
   {
-   "inicio": 127.959,
-   "fin": 135.052,
+   "inicio": 127.967,
+   "fin": 135.067,
    "seccion": 4,
    "motivo": "Gráfico: caída casi constante de 78,1 a 51,4 °C (segunda toma)",
    "texto": "durante los 30 minutos, de estar en 78,1 a llegar a los 51,4,"
   },
   {
-   "inicio": 135.253,
-   "fin": 137.897,
+   "inicio": 135.267,
+   "fin": 137.9,
    "seccion": 4,
    "motivo": "Gráfico: caída casi constante de 78,1 a 51,4 °C (segunda toma)",
    "texto": "en el término de este experimento."
   },
   {
-   "inicio": 166.603,
+   "inicio": 166.6,
    "fin": 172.033,
    "seccion": 5,
    "motivo": "EDO lineal de primer orden; identificar P(t) y Q(t)",
    "texto": "aquí se deja en una EDO lineal,"
   },
   {
-   "inicio": 172.294,
-   "fin": 176.582,
+   "inicio": 172.3,
+   "fin": 176.567,
    "seccion": 5,
    "motivo": "EDO lineal de primer orden; identificar P(t) y Q(t)",
    "texto": "porque es una de las mejores opciones. Para evaluar este caso,"
   },
   {
-   "inicio": 177.424,
-   "fin": 180.37,
+   "inicio": 177.433,
+   "fin": 180.367,
    "seccion": 5,
    "motivo": "EDO lineal de primer orden; identificar P(t) y Q(t)",
    "texto": "donde la EDO lineal se tiene que identificar lo que es el"
   },
   {
-   "inicio": 181.092,
-   "fin": 183.317,
+   "inicio": 181.1,
+   "fin": 183.333,
    "seccion": 5,
    "motivo": "EDO lineal de primer orden; identificar P(t) y Q(t)",
    "texto": "P(t) y Q(t) en este caso."
   },
   {
-   "inicio": 193.081,
-   "fin": 194.002,
+   "inicio": 193.067,
+   "fin": 194.0,
    "seccion": 5,
    "motivo": "Factor integrante e^{kt}",
    "texto": "Queda tal que,"
   },
   {
-   "inicio": 194.344,
-   "fin": 196.891,
+   "inicio": 194.333,
+   "fin": 196.9,
    "seccion": 5,
    "motivo": "Factor integrante e^{kt}",
    "texto": "integrar esto, queda tal que e"
   },
   {
-   "inicio": 197.212,
-   "fin": 198.616,
+   "inicio": 197.2,
+   "fin": 198.6,
    "seccion": 5,
    "motivo": "Factor integrante e^{kt}",
    "texto": "elevado a k por T."
   },
   {
-   "inicio": 199.622,
-   "fin": 202.173,
+   "inicio": 199.633,
+   "fin": 202.167,
    "seccion": 5,
    "motivo": "Factor integrante e^{kt}",
    "texto": "Y este es mi factor integrante."
   },
   {
-   "inicio": 274.721,
-   "fin": 284.999,
+   "inicio": 274.733,
+   "fin": 285.0,
    "seccion": 5,
    "motivo": "Las constantes se agrupan en una sola C (Vicente menciona el apoyo de IA)",
    "texto": "Y en este caso me ayudó la IA. La inteligencia artificial me ayudó porque estos dos, al ser constantes, se tienen que agrupar en una sola constante."
   },
   {
-   "inicio": 288.373,
-   "fin": 289.554,
+   "inicio": 288.367,
+   "fin": 289.567,
    "seccion": 5,
    "motivo": "Condición inicial para obtener C",
    "texto": "y para obtener la C,"
   },
   {
-   "inicio": 290.595,
-   "fin": 292.216,
+   "inicio": 290.6,
+   "fin": 292.2,
    "seccion": 5,
    "motivo": "Condición inicial para obtener C",
    "texto": "que tenemos que encontrarla,"
   },
   {
-   "inicio": 292.497,
-   "fin": 294.779,
+   "inicio": 292.5,
+   "fin": 294.767,
    "seccion": 5,
    "motivo": "Condición inicial para obtener C",
    "texto": "es necesario aplicar la condición inicial."
   },
   {
-   "inicio": 318.366,
-   "fin": 321.375,
+   "inicio": 318.367,
+   "fin": 321.367,
    "seccion": 5,
    "motivo": "C = T₀ − Tₑ y se reemplaza en T(t)",
    "texto": "se encuentra el valor de C y se reemplaza en T(t)."
   },
   {
-   "inicio": 361.349,
-   "fin": 362.974,
+   "inicio": 361.333,
+   "fin": 362.967,
    "seccion": 5,
    "motivo": "C = 56",
    "texto": "mi C vale 56."
   },
   {
-   "inicio": 466.682,
-   "fin": 469.03,
+   "inicio": 466.667,
+   "fin": 469.033,
    "seccion": 5,
    "motivo": "EDO final: predice cualquier instante",
    "texto": "Entonces mi EDO final quedaría"
   },
   {
-   "inicio": 469.292,
-   "fin": 470.235,
+   "inicio": 469.3,
+   "fin": 470.233,
    "seccion": 5,
    "motivo": "EDO final: predice cualquier instante",
    "texto": "de esta manera."
   },
   {
-   "inicio": 470.635,
-   "fin": 471.336,
+   "inicio": 470.633,
+   "fin": 471.333,
    "seccion": 5,
    "motivo": "EDO final: predice cualquier instante",
    "texto": "En donde"
   },
   {
-   "inicio": 471.716,
-   "fin": 475.398,
+   "inicio": 471.7,
+   "fin": 475.4,
    "seccion": 5,
    "motivo": "EDO final: predice cualquier instante",
    "texto": "esta puede predecir cualquier intervalo de tiempo,"

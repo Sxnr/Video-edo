@@ -4,8 +4,34 @@ import json, re
 def words(id):
     import os
     if os.path.exists(f'work/transcripts/{id}.aligned.json'):
-        return json.load(open(f'work/transcripts/{id}.aligned.json'))
+        return refine_onsets(id, json.load(open(f'work/transcripts/{id}.aligned.json')))
     return whisper_words(id)
+
+_rms = {}
+def _energy(id):
+    if id not in _rms:
+        import wave, numpy as np
+        w = wave.open(f'work/wav/{id}.wav'); x = np.frombuffer(w.readframes(w.getnframes()), np.int16) / 32768
+        f = 160; n = len(x) // f
+        _rms[id] = 20 * np.log10(np.sqrt((x[:n * f].reshape(n, f) ** 2).mean(1)) + 1e-9)
+    return _rms[id]
+
+def refine_onsets(id, W):
+    """Si el alineador ubicó el inicio de una palabra tarde, justo después de una pausa, y entre el fin de
+    la pausa y ese inicio hay energía de voz (no respiración), adelanta el inicio al fin de la pausa."""
+    import os, numpy as np
+    sp = f'work/silence/{id}.json'
+    if not os.path.exists(sp): return W
+    S = json.load(open(sp)); thr = S['thr']; r = _energy(id)
+    for a, b in S['pauses']:
+        for i, w in enumerate(W):
+            if not (0.08 < w['s'] - b < 0.7): continue
+            if i > 0 and W[i - 1]['e'] > a + 0.1: continue
+            seg = r[int(b * 100):int(w['s'] * 100)]
+            if len(seg) and np.median(seg) > thr + 8:
+                w['s'] = round(b + 0.02, 3)
+            break
+    return W
 
 def whisper_words(id):
     d = json.load(open(f'work/transcripts/{id}.json'))
